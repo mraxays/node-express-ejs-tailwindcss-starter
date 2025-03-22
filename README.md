@@ -28,7 +28,7 @@ NODE-EXPRESS-EJS-TAILWINDCSS-STARTER
 │── .prettierrc              # Code formatting rules
 │── app.js                   # Main application file
 │── LICENSE.md               # License file
-│── package.json             # Project dependencies
+│── package.json             # Project dependencies (Update name "projectname" to your actual project name)
 │── package-lock.json        # Dependency lock file
 │── README.md                # Documentation
 ```
@@ -36,14 +36,14 @@ NODE-EXPRESS-EJS-TAILWINDCSS-STARTER
 ## Installation
 1. Clone the repository:
    ```sh
-   git clone https://github.com/mraxays/node-express-ejs-tailwindcss-starter.git
+   git clone git@github.com:mraxays/node-express-ejs-tailwindcss-starter.git
    cd node-express-ejs-tailwindcss-starter
    ```
 2. Install dependencies:
    ```sh
    npm install
    ```
-3. Start the development server:
+3. Start the server:
    ```sh
    npm start
    ```
@@ -53,6 +53,31 @@ NODE-EXPRESS-EJS-TAILWINDCSS-STARTER
 - Modify **views/index.ejs** to customize the homepage.
 - Add new routes in **routes/** and link them in **app.js**.
 - Edit **public/stylesheets/tailwind.css** for custom styling.
+- Update **package.json** and change the name "projectname" to your actual project name.
+- Use **npm run devcss** to compile Tailwind CSS.
+- Use **npm run dev** to start the server with Nodemon for auto-reloading.
+
+## Dependencies
+This project includes the following dependencies:
+- **Express** (`^4.21.2`)
+- **EJS** (`^3.1.10`)
+- **Tailwind CSS** (`^4.0.15`)
+- **Morgan** (`~1.9.1` for logging)
+- **Cookie Parser** (`~1.4.4` for handling cookies)
+- **Debug** (`~2.6.9` for debugging)
+- **HTTP Errors** (`~1.6.3` for error handling)
+- **@tailwindcss/cli** (`^4.0.15` for Tailwind CLI)
+
+## Dev Dependencies
+- **Nodemon** (`^3.1.9` for auto-restarting the server)
+- **Prettier** (`^3.5.3` for code formatting)
+- **Prettier Plugin TailwindCSS** (`^0.6.11` for Tailwind-specific formatting)
+
+## Scripts
+The following scripts are available:
+- **npm start** - Start the server normally.
+- **npm run dev** - Start the server with **Nodemon** for auto-restarting.
+- **npm run devcss** - Compile **Tailwind CSS** and watch for changes.
 
 ## License
 This project is licensed under the [MIT License](LICENSE.md).
