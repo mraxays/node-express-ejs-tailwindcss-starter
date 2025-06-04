@@ -49,6 +49,11 @@ NODE-EXPRESS-EJS-TAILWINDCSS-STARTER
    ```
    The server runs at `http://localhost:3000/` by default.
 
+4. Update Package:
+   ```sh
+   npx npm-check-updates -u
+   ```
+   
 ## Usage
 - Modify **views/index.ejs** to customize the homepage.
 - Add new routes in **routes/** and link them in **app.js**.
@@ -59,14 +64,14 @@ NODE-EXPRESS-EJS-TAILWINDCSS-STARTER
 
 ## Dependencies
 This project includes the following dependencies:
-- **Express** (`^4.21.2`)
-- **EJS** (`^3.1.10`)
-- **Tailwind CSS** (`^4.0.15`)
-- **Morgan** (`~1.9.1` for logging)
-- **Cookie Parser** (`~1.4.4` for handling cookies)
-- **Debug** (`~2.6.9` for debugging)
-- **HTTP Errors** (`~1.6.3` for error handling)
-- **@tailwindcss/cli** (`^4.0.15` for Tailwind CLI)
+- **Express** 
+- **EJS** 
+- **Tailwind CSS** 
+- **Morgan** (for logging)
+- **Cookie Parser** (for handling cookies)
+- **Debug** (for debugging)
+- **HTTP Errors** (for error handling)
+- **@tailwindcss/cli** (for Tailwind CLI)
 
 ## Dev Dependencies
 - **Nodemon** (`^3.1.9` for auto-restarting the server)
