@@ -53,7 +53,10 @@ NODE-EXPRESS-EJS-TAILWINDCSS-STARTER
    ```sh
    npx npm-check-updates -u
    ```
-   
+5. Minify CSS :
+   ```sh
+   npm run buildcss
+   ```
 ## Usage
 - Modify **views/index.ejs** to customize the homepage.
 - Add new routes in **routes/** and link them in **app.js**.
