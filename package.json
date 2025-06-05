@@ -5,8 +5,8 @@
   "scripts": {
     "start": "node ./bin/www",
     "dev": "nodemon ./bin/www",
-    "devcss": "npx tailwindcss -i ./public/stylesheets/tailwind.css -o ./public/stylesheets/styles.css --watch",
-    "buildcss": "npx tailwindcss -i ./public/stylesheets/tailwind.css -o ./public/stylesheets/styles.css --minify"
+    "devcss": "npx @tailwindcss/cli -i ./public/stylesheets/tailwind.css -o ./public/stylesheets/styles.css --watch",
+    "buildcss": "npx @tailwindcss/cli -i ./public/stylesheets/tailwind.css -o ./public/stylesheets/styles.css --minify"
   },
   "dependencies": {
     "@tailwindcss/cli": "^4.1.8",
