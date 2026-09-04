@@ -53,6 +53,11 @@ NODE-EXPRESS-EJS-TAILWINDCSS-STARTER
    ```sh
    npx npm-check-updates -u
    ```
+If you want to update all dependencies to the latest versions.
+4.1 Update dependencies:
+   ```sh
+   npm install
+   ```
 5. Minify CSS :
    ```sh
    npm run buildcss

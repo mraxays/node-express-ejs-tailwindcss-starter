@@ -9,18 +9,22 @@
     "buildcss": "npx @tailwindcss/cli -i ./public/stylesheets/tailwind.css -o ./public/stylesheets/styles.css --minify"
   },
   "dependencies": {
-    "@tailwindcss/cli": "^4.1.8",
+    "@tailwindcss/cli": "^4.3.3",
     "cookie-parser": "~1.4.7",
-    "debug": "~4.4.1",
-    "ejs": "^3.1.10",
-    "express": "^5.1.0",
-    "http-errors": "~2.0.0",
-    "morgan": "~1.10.0",
-    "tailwindcss": "^4.1.8"
+    "debug": "~4.4.3",
+    "ejs": "^6.0.1",
+    "express": "^5.2.1",
+    "http-errors": "~2.0.1",
+    "morgan": "~1.12.0",
+    "tailwindcss": "^4.3.3"
   },
   "devDependencies": {
-    "nodemon": "^3.1.10",
-    "prettier": "^3.5.3",
-    "prettier-plugin-tailwindcss": "^0.6.12"
+    "nodemon": "^3.1.14",
+    "prettier": "^3.9.6",
+    "prettier-plugin-tailwindcss": "^0.8.1"
+  },
+  "allowScripts": {
+    "@parcel/watcher@2.5.1": true,
+    "@tailwindcss/oxide@4.1.8": true
   }
 }
