@@ -49,6 +49,18 @@ NODE-EXPRESS-EJS-TAILWINDCSS-STARTER
    ```
    The server runs at `http://localhost:3000/` by default.
 
+3.1 For development with auto-reloading (Tailwind CSS watching & Nodemon):
+   ```sh
+   npm run dev
+   ```
+3.2 For development with Tailwind CSS watching:
+   ```sh
+   npm run devcss
+   ```
+3.3 For Running development server
+   ```sh
+   npm run dev:server
+   ```
 4. Update Package:
    ```sh
    npx npm-check-updates -u
@@ -58,7 +70,7 @@ If you want to update all dependencies to the latest versions.
    ```sh
    npm install
    ```
-5. Minify CSS :
+5. For building the project with minified CSS:
    ```sh
    npm run buildcss
    ```
