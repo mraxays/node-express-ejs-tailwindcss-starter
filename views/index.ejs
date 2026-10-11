@@ -1,14 +1,19 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title><%= title %></title>
-    <link rel="stylesheet" href="/stylesheets/styles.css" />
-  </head>
+<html lang="en">
 
-  <body>
-    <h1 class="m-2 mb-12 bg-green-500 p-3 pt-2 text-center text-white">
-      <%= title %>
-    </h1>
-    <p>Welcome to <%= title %></p>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><%= title %></title>
+  <link rel="stylesheet" href="/stylesheets/styles.css" />
+</head>
+
+<body>
+  <div class="w-screen h-screen bg-black text-white">
+    <div class="flex flex-col items-center justify-center h-full">
+      <h1 class="text-4xl font-bold mb-4"><%= title %></h1>
+      <p class="text-lg">Welcome to the Express.js application with EJS and Tailwind CSS!</p>
+    </div>
+  </div>
+</body>
 </html>

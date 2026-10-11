@@ -2,6 +2,7 @@
   "name": "projectname",
   "version": "1.0.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "start": "node ./bin/www",
     "dev": "concurrently \"npm run dev:server\" \"npm run devcss\"",
@@ -10,7 +11,7 @@
     "buildcss": "npx @tailwindcss/cli -i ./public/stylesheets/tailwind.css -o ./public/stylesheets/styles.css --minify"
   },
   "dependencies": {
-    "@tailwindcss/cli": "^4.3.3",
+    "@tailwindcss/cli": "^4.3.0",
     "cookie-parser": "~1.4.7",
     "debug": "~4.4.3",
     "ejs": "^6.0.1",
@@ -26,7 +27,13 @@
     "prettier-plugin-tailwindcss": "^0.8.1"
   },
   "allowScripts": {
-    "@parcel/watcher@2.5.1": true,
-    "@tailwindcss/oxide@4.1.8": true
+    "@tailwindcss/oxide@4.1.8": true,
+    "nodemon@1.14.10": true,
+    "@parcel/watcher@2.6.0": true
+  },
+  "overrides": {
+    "nodemon": {
+      "chokidar": "4.0.3"
+    }
   }
 }
